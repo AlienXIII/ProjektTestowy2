@@ -1,0 +1,38 @@
+body{
+    background-color:grey;
+}
+header{
+    background-color:navy;
+    position:relative;
+}
+#logo{
+    background-color:white;
+    height:70px;
+    width:120px;
+    float:left;
+    position:relative;
+}
+ul{
+    list-style-type:none;
+    padding:0 0 0 100px;
+    float:left;
+}
+#ellisty{
+    display:inline;
+    font-size: 20px;
+    font-family: Helvetica;
+}
+nav{
+    padding:30px 60px 30px 45px;
+}
+#search{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 5%;
+        margin: auto;
+        height: 1em;
+}
+.clear{
+    clear:both;
+}
