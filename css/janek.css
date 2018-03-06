@@ -1,0 +1,52 @@
+body{
+
+    background-color:grey;
+    margin:0px;
+
+}
+header{
+    background-color:navy;
+
+
+}
+#logo
+{
+    display:inline-block;
+    width:150px;
+    height:90px;
+}
+nav{
+    padding:30px 70px 30px 40px;
+    float: left;
+
+    display:inline-block;
+
+}
+#tekst
+{
+    padding-top:60px;
+    color:white;
+    font-size: 30px;
+    font-family:  Arial;
+    margin-top: -10px;
+    padding-left:180px;
+    display:inline-block;
+    float:right;
+}
+
+header nav a{
+    padding:0 60px 0 0;
+}
+
+#searchbox{
+
+    position:absolute;
+    right: 70px;
+    top:60px;
+    border:5px solid white;
+
+
+}
+.cleaner {
+    clear:both;
+}
