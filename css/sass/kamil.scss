@@ -1,0 +1,107 @@
+@import "compass/reset";
+$navy:rgb(31,63,102);
+body{
+    background-color:grey;
+    margin:0;
+    b{
+        font-weight:600;
+    }
+}
+header{
+    background-color:$navy;
+    position:relative;
+}
+#logo{
+    height:70px;
+    width:120px;
+    float:left;
+    position:relative;
+}
+ul{
+    list-style-type:none;
+    padding:0 0 0 100px;
+    float:left;
+}
+#ellisty{
+    display:inline;
+    font-size: 20px;
+    font-family: Helvetica;
+}
+nav{
+    padding:30px 60px 30px 45px;
+}
+#search{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 5%;
+    margin: auto;
+    height: 1em;
+}
+.clear{
+    clear:both;
+}
+.banner {
+    position: relative;
+    width: 100%;
+        #tekst {
+        color:navy;
+        height: 400px;
+        width: 650px;
+        text-align:justify;
+        position:absolute;
+        top: 25%;
+        left:11%;
+        font-size: 45px;
+        }
+}
+.banner img {
+    width: 100%;
+}
+.banner .guzikbanner {
+    position: absolute;
+    top: 63%;
+    left: 11%;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    padding: 10px 32px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.banner .device {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    width: 35%;
+    height: 45%;
+}
+.principle {
+        position:relative;
+   .pone {
+        position: absolute;
+        left: 5%;
+        height:70px;
+        width:300px;
+        font-size: 20px;
+        text-align: justify;
+   }
+   .ptwo {
+        position: absolute;
+        left: 35%;
+        height:70px;
+        width:300px;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .pthree {
+        position: relative;
+        left: 65%;
+        height:70px;
+        width:300px;
+        font-size: 20px;
+        text-align: justify;
+    }
+}
