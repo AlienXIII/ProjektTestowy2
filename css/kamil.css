@@ -1,12 +1,12 @@
 body{
     background-color:grey;
+    margin:0;
 }
 header{
     background-color:navy;
     position:relative;
 }
 #logo{
-    background-color:white;
     height:70px;
     width:120px;
     float:left;
@@ -26,13 +26,56 @@ nav{
     padding:30px 60px 30px 45px;
 }
 #search{
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 5%;
-        margin: auto;
-        height: 1em;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 5%;
+    margin: auto;
+    height: 1em;
 }
 .clear{
     clear:both;
+}
+.banner {
+    position: relative;
+    width: 100%;
+}
+.banner img {
+    width: 100%;
+}
+.banner .guzikbanner {
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    padding: 10px 32px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.banner .device {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: 45%;
+}
+.principles {
+    background-color: black;
+}
+.principles .pone {
+    position: absolute;
+    left: 15%;
+}
+.principles .ptwo {
+    position: absolute;
+    left: 40%;
+}
+.principles .pthree {
+    position: absolute;
+    left: 65%;
 }
