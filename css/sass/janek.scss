@@ -1,0 +1,139 @@
+@import "compass/reset";
+
+$navy: rgb(31, 63, 102);
+$margin5:5%;
+$czcionka:Open Sans;
+body {
+
+  background-color: lightgrey;
+  font-size:16px;
+  b{
+    font-weight: 600;
+  }
+}
+
+header {
+  background-color: $navy;
+
+}
+
+#logo {
+  float: left;
+  margin: 30px 0 30px $margin5;
+  height: 100px;
+  width: 300px;
+}
+
+header #tekst {
+  padding-top: 60px;
+  color: white;
+  font-size:2em;
+  font-family: $czcionka;
+  margin-top: -10px;
+  padding-left: 180px;
+  float: left;
+}
+
+header a {
+  padding: 0 100px 0 0;
+}
+
+#searchbox {
+
+  position: absolute;
+  right: 70px;
+  top: 60px;
+  border: 5px solid white;
+
+}
+
+.cleaner {
+  clear: both;
+}
+
+.pacznato {
+
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#glownyobrazek {
+
+  position: relative;
+
+
+  width: 100%;
+  height: 600px;
+}
+
+.pacznato #tekst {
+
+
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: $navy;
+  font-size: 2.5em;
+  font-family: $czcionka;
+
+  width: 40%;
+  text-align: justify;
+
+}
+
+#telefony {
+
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 40%;
+  height: auto;
+
+}
+
+.guziczek {
+
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+  background-color: #4CAF50;
+
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  display:inline-block;
+  font-size: 2em;
+  font-family: $czcionka;
+
+  cursor: pointer;
+  border-radius:10px;
+}
+
+.dolnypanel {
+
+  color: navy;
+  font-size: 25px;
+  font-family: $czcionka;
+  margin: 0 $margin5 0 $margin5;
+
+  .column {
+    display: inline-block;
+    width: 32%;
+    text-align: justify;
+    position:relative;
+    div{
+      display: inline-block;
+
+      padding-left: 70px;
+    }
+    img{
+      top:0;
+      left:0;
+      position: absolute;
+    }
+  }
+
+}

@@ -1,0 +1,195 @@
+/* line 5, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 6, ../sass/janek.scss */
+body {
+  background-color: lightgrey;
+  font-size: 16px;
+}
+/* line 10, ../sass/janek.scss */
+body b {
+  font-weight: 600;
+}
+
+/* line 15, ../sass/janek.scss */
+header {
+  background-color: #1f3f66;
+}
+
+/* line 20, ../sass/janek.scss */
+#logo {
+  float: left;
+  margin: 30px 0 30px 5%;
+  height: 100px;
+  width: 300px;
+}
+
+/* line 27, ../sass/janek.scss */
+header #tekst {
+  padding-top: 60px;
+  color: white;
+  font-size: 2em;
+  font-family: Open Sans;
+  margin-top: -10px;
+  padding-left: 180px;
+  float: left;
+}
+
+/* line 37, ../sass/janek.scss */
+header a {
+  padding: 0 100px 0 0;
+}
+
+/* line 41, ../sass/janek.scss */
+#searchbox {
+  position: absolute;
+  right: 70px;
+  top: 60px;
+  border: 5px solid white;
+}
+
+/* line 50, ../sass/janek.scss */
+.cleaner {
+  clear: both;
+}
+
+/* line 54, ../sass/janek.scss */
+.pacznato {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+/* line 61, ../sass/janek.scss */
+#glownyobrazek {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+/* line 70, ../sass/janek.scss */
+.pacznato #tekst {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: #1f3f66;
+  font-size: 2.5em;
+  font-family: Open Sans;
+  width: 40%;
+  text-align: justify;
+}
+
+/* line 85, ../sass/janek.scss */
+#telefony {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 40%;
+  height: auto;
+}
+
+/* line 95, ../sass/janek.scss */
+.guziczek {
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 2em;
+  font-family: Open Sans;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* line 115, ../sass/janek.scss */
+.dolnypanel {
+  color: navy;
+  font-size: 25px;
+  font-family: Open Sans;
+  margin: 0 5% 0 5%;
+}
+/* line 122, ../sass/janek.scss */
+.dolnypanel .column {
+  display: inline-block;
+  width: 32%;
+  text-align: justify;
+  position: relative;
+}
+/* line 127, ../sass/janek.scss */
+.dolnypanel .column div {
+  display: inline-block;
+  padding-left: 70px;
+}
+/* line 132, ../sass/janek.scss */
+.dolnypanel .column img {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
