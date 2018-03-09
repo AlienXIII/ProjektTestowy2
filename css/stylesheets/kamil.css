@@ -126,10 +126,10 @@ nav {
   position: relative;
   width: 100%;
 }
-/* line 47, ../sass/kamil.scss */
+/* line 48, ../sass/kamil.scss */
 .banner #tekst {
   color: navy;
-  height: 400px;
+  height: 250px;
   width: 650px;
   text-align: justify;
   position: absolute;
@@ -138,12 +138,12 @@ nav {
   font-size: 45px;
 }
 
-/* line 58, ../sass/kamil.scss */
+/* line 59, ../sass/kamil.scss */
 .banner img {
   width: 100%;
 }
 
-/* line 61, ../sass/kamil.scss */
+/* line 62, ../sass/kamil.scss */
 .banner .guzikbanner {
   position: absolute;
   top: 63%;
@@ -158,7 +158,7 @@ nav {
   font-weight: 600;
 }
 
-/* line 74, ../sass/kamil.scss */
+/* line 75, ../sass/kamil.scss */
 .banner .device {
   position: absolute;
   top: 25%;
@@ -167,34 +167,98 @@ nav {
   height: 45%;
 }
 
-/* line 81, ../sass/kamil.scss */
+/* line 82, ../sass/kamil.scss */
 .principle {
   position: relative;
 }
-/* line 83, ../sass/kamil.scss */
+/* line 84, ../sass/kamil.scss */
 .principle .pone {
   position: absolute;
-  left: 5%;
   height: 70px;
-  width: 300px;
+  width: 32%;
   font-size: 20px;
   text-align: justify;
 }
-/* line 91, ../sass/kamil.scss */
+/* line 90, ../sass/kamil.scss */
+.principle .pone img {
+  float: left;
+}
+/* line 94, ../sass/kamil.scss */
 .principle .ptwo {
   position: absolute;
-  left: 35%;
   height: 70px;
-  width: 300px;
+  width: 32%;
   font-size: 20px;
   text-align: justify;
 }
-/* line 99, ../sass/kamil.scss */
+/* line 100, ../sass/kamil.scss */
+.principle .ptwo img {
+  float: left;
+}
+/* line 104, ../sass/kamil.scss */
 .principle .pthree {
-  position: relative;
-  left: 65%;
+  position: absolute;
   height: 70px;
-  width: 300px;
+  width: 32%;
   font-size: 20px;
   text-align: justify;
+}
+/* line 110, ../sass/kamil.scss */
+.principle .pthree img {
+  float: left;
+}
+
+/* line 115, ../sass/kamil.scss */
+.trzeciblok {
+  position: relative;
+  width: 100%;
+}
+/* line 119, ../sass/kamil.scss */
+.trzeciblok .iphone {
+  position: absolute;
+  height: 400px;
+  left: 5%;
+}
+/* line 124, ../sass/kamil.scss */
+.trzeciblok .guzikdwa {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  background-color: green;
+  color: white;
+  font-size: 30px;
+  padding: 10px 32px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 600;
+}
+/* line 137, ../sass/kamil.scss */
+.trzeciblok #tekst2 {
+  color: navy;
+  height: 250px;
+  width: 1000px;
+  text-align: justify;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  font-size: 35px;
+  font-family: Verdana;
+}
+
+/* line 149, ../sass/kamil.scss */
+#guzikkolor {
+  position: relative;
+  background-color: red;
+  color: white;
+  font-size: 30px;
+  padding: 10px 32px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 600;
+}
+/* line 159, ../sass/kamil.scss */
+#guzikkolor.clicked {
+  background-color: green;
 }

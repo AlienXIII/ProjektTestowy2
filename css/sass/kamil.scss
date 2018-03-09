@@ -44,9 +44,10 @@ nav{
 .banner {
     position: relative;
     width: 100%;
+
         #tekst {
         color:navy;
-        height: 400px;
+        height: 250px;
         width: 650px;
         text-align:justify;
         position:absolute;
@@ -82,26 +83,80 @@ nav{
         position:relative;
    .pone {
         position: absolute;
-        left: 5%;
         height:70px;
-        width:300px;
+        width:32%;
         font-size: 20px;
         text-align: justify;
+        img {
+                float:left;
+           }
    }
    .ptwo {
         position: absolute;
-        left: 35%;
         height:70px;
-        width:300px;
+        width:32%;
         font-size: 20px;
         text-align: justify;
+            img {
+                    float:left;
+               }
     }
-    .pthree {
-        position: relative;
-        left: 65%;
+   .pthree {
+        position: absolute;
         height:70px;
-        width:300px;
+        width:32%;
         font-size: 20px;
         text-align: justify;
+        img {
+                float:left;
+           }
     }
+}
+.trzeciblok{
+    position: relative;
+    width: 100%;
+
+    .iphone {
+        position:absolute;
+        height:400px;
+        left: 5%;
+    }
+    .guzikdwa {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        background-color: green;
+        color: white;
+        font-size: 30px;
+        padding: 10px 32px;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    #tekst2 {
+        color:navy;
+        height: 250px;
+        width: 1000px;
+        text-align:justify;
+        position:absolute;
+        top: 25%;
+        left:35%;
+        font-size: 35px;
+        font-family: Verdana;
+    }
+}
+#guzikkolor{
+    position: relative;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    padding: 10px 32px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 600;
+    &.clicked {
+      background-color: green;
+}
 }
