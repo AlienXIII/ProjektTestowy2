@@ -4,9 +4,11 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+$navy:rgb(31,63,102);
+body *{    font-family: "open sans"};
 header{
 display:block;
-background-color:navy;
+background-color:$navy;
 padding:20px 5%;
 position:relative;
 }
@@ -18,7 +20,7 @@ font-size:22px;
 #logo{
 width:100px;
  height:50px;
- background-color:navy;
+ background-color:$navy;
  display:inline-block;
 }
 nav{
@@ -30,19 +32,81 @@ display:inline-block;
 #wyszukiwanie{
 text-align:right;
 position:absolute;
-top:40%;
+top:10%;
 display:inline-block;
 right:5%;
 }
 #miasto{
 
-display:block;
-padding:20px;
+position:relative;
 
+img{
+width:100%;
+}
 
-
-
-
+#telefon{
+position:absolute;
+top:0;
+right:0;
+width:40%;
+img{
+    width: 84%;
+    margin: 31% 21% 0 0;
+    position: absolute;
+    top: 0;
+    right: 0;
 
 }
+
+}
+#guzik{    position: absolute;
+           top: 75%;
+           font-size: 2em;
+           left: 13%;
+           background: rgb(87,188,66);
+           color: white;
+           padding: 10px 26px;
+           border-radius: 10px;
+}
+
+#napisy {
+    position:absolute;
+    color:navy;
+    left:13%;
+    top:13%;
+    font-size:2.5em;
+    p{
+        font-weight:600;
+    }
+}
+
+
+ .container {
+    width:33px;
+    float:25%;
+
+  img{
+     position: absolute;
+     width: 69px;
+     padding-left: 50px;
+    }
+}
+}
+
+#guzik2{position: absolute;
+                   top: 92%;
+                   font-size: 2em;
+
+                   background: rgb(87,188,66);
+                   color: green;
+                   padding: 10px 26px;
+                   border-radius: 10px;
+                   position:relative;
+
+                   &.click {
+                   background-color:pink;
+                   }
+                   }
+
+
 

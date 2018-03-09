@@ -17,20 +17,56 @@
         <a href="#Ipsum">Ipsum</a>
         <a href="#Dolor">Dolor</a>
     </nav>
-    <div id="wyszukiwanie"><input type="text"/>
-
-
-        <div id="miasto"></div>
-        <img src="img/skyline-buildings-new-york-skyscrapers_min.jpg"/
-        <div id ="przycisk"></div>
-        <img src="img/device_black.png"/>
-"
-
-
-        <div id="wifilogo"></div>
-
-
-
+    <div id="wyszukiwanie"><input type="text"/></div>
 </header>
+
+        <div id="miasto">
+            <img src="img/skyline-buildings-new-york-skyscrapers_min.jpg"/>
+
+            <div id ="telefon">
+                <img src="img/device_black.png"/>
+            </div>
+
+            <div id="guzik">voluptatibus
+
+            </div>
+            <div id="napisy"><p>Sed ut perspiciatis unde omnis <br>iste natus error sit
+    </p>Nemo enim ipsam voluptatem <br>quia voluptas sit
+
+
+        </div>
+
+
+
+
+
+
+
+
+<audio controls>
+    <source src="audio/horse.ogg" type="audio/ogg">
+    <source src="audio/horse.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+        </div>
+
+<div id="guzik2">okok
+
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+ <script>
+$("#guzik2").click(function(){
+    $(this).toggleClass("click");// zabierz klase click jezeli jest lu dodaj jezeli nie ma
+    if($(this).hasClass("click")){
+        $(this).animate({"left":"10"},500);
+    }
+    else {
+        $(this).animate({"left": "0"},500);
+    }
+})
+
+ </script>
+
 </body>
 </html>

@@ -1,0 +1,186 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/wiola.scss */
+body * {
+  font-family: "open sans";
+}
+
+/* line 9, ../sass/wiola.scss */
+header {
+  display: block;
+  background-color: #1f3f66;
+  padding: 20px 5%;
+  position: relative;
+}
+
+/* line 15, ../sass/wiola.scss */
+a {
+  color: white;
+  padding: 0 80px 0 0;
+  font-size: 22px;
+}
+
+/* line 20, ../sass/wiola.scss */
+#logo {
+  width: 100px;
+  height: 50px;
+  background-color: #1f3f66;
+  display: inline-block;
+}
+
+/* line 26, ../sass/wiola.scss */
+nav {
+  padding: 0px 60px;
+  font-size: 30;
+  display: inline-block;
+}
+
+/* line 32, ../sass/wiola.scss */
+#wyszukiwanie {
+  text-align: right;
+  position: absolute;
+  top: 10%;
+  display: inline-block;
+  right: 5%;
+}
+
+/* line 39, ../sass/wiola.scss */
+#miasto {
+  position: relative;
+}
+/* line 43, ../sass/wiola.scss */
+#miasto img {
+  width: 100%;
+}
+/* line 47, ../sass/wiola.scss */
+#miasto #telefon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+}
+/* line 52, ../sass/wiola.scss */
+#miasto #telefon img {
+  width: 84%;
+  margin: 31% 21% 0 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* line 62, ../sass/wiola.scss */
+#miasto #guzik {
+  position: absolute;
+  top: 75%;
+  font-size: 2em;
+  left: 13%;
+  background: #57bc42;
+  color: white;
+  padding: 10px 26px;
+  border-radius: 10px;
+}
+/* line 72, ../sass/wiola.scss */
+#miasto #napisy {
+  position: absolute;
+  color: navy;
+  left: 13%;
+  top: 13%;
+  font-size: 2.5em;
+}
+/* line 78, ../sass/wiola.scss */
+#miasto #napisy p {
+  font-weight: 600;
+}
+/* line 84, ../sass/wiola.scss */
+#miasto .container {
+  width: 33px;
+  float: 25%;
+}
+/* line 88, ../sass/wiola.scss */
+#miasto .container img {
+  position: absolute;
+  width: 69px;
+  padding-left: 50px;
+}
+
+/* line 96, ../sass/wiola.scss */
+#guzik2 {
+  position: absolute;
+  top: 92%;
+  font-size: 2em;
+  background: #57bc42;
+  color: green;
+  padding: 10px 26px;
+  border-radius: 10px;
+  position: relative;
+}
+/* line 106, ../sass/wiola.scss */
+#guzik2.click {
+  background-color: pink;
+}
