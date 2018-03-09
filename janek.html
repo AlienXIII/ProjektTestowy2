@@ -34,7 +34,7 @@
         Nemo enim ipsam voluptatem
         quia voluptas sit
     </div>
-    <a href="#" class="guziczek">Voluptatibus</a>
+    <a id="cokolwiek" href="#" class="guziczek">Voluptatibus</a>
 
 </div>
 
@@ -42,27 +42,52 @@
 
     <div class="column wifi">
         <div><img src="img/wifi.png">
-        Nam libero tempore, cum
+            Nam libero tempore, cum
             soluta nobis est eligendi
             optio cumque nihil impedit
         </div>
     </div>
     <div class="column connect">
         <div><img src="img/connect.png">
-         Nam libero tempore, cum
+            Nam libero tempore, cum
             soluta nobis est eligendi
             optio cumque nihil impedit
         </div>
     </div>
     <div class="column message">
         <div><img src="img/message.png">
-        Nam libero tempore, cum
+            Nam libero tempore, cum
             soluta nobis est eligendi
             optio cumque nihil impedit
         </div>
     </div>
 </div>
 
+<div>
+    <a id="zmieniany" style="left:0" href="#">Enlarge your penis!</a>
+</div>
+
+
+<!--<audio controls><source src="audio/horse.mp3" type="audio/mp3">
+You fucked up mate, no music to ya! !-->
+
+</audio>
+<script src="js/jquery-3.3.1.min.js">
+
+</script>
+<!--<script src="js/script.js"></script>-->
+<script>
+    function spam(){
+        var $this = $("#zmieniany");
+        $this.toggleClass("klikniety");
+        if($this.hasClass("klikniety")){
+            $this.animate({"left":"100"},500,spam);
+        }else{
+            $this.animate({"left":"0"},500,spam);
+        }
+    }
+    spam();
+</script>
 
 </body>
 </html>

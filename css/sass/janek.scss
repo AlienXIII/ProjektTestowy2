@@ -3,6 +3,7 @@
 $navy: rgb(31, 63, 102);
 $margin5:5%;
 $czcionka:Open Sans;
+
 body {
 
   background-color: lightgrey;
@@ -119,6 +120,7 @@ header a {
   font-family: $czcionka;
   margin: 0 $margin5 0 $margin5;
 
+
   .column {
     display: inline-block;
     width: 32%;
@@ -137,3 +139,28 @@ header a {
   }
 
 }
+
+#zmieniany {
+
+
+  width: 20%;
+  height:30%;
+  background-color: green;
+  position:relative;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+
+  font-size: 3em;
+  font-family: $czcionka;
+
+  cursor: pointer;
+  border-radius:10px;
+  &.klikniety{
+    background-color: red;
+  }
+}
+
+
