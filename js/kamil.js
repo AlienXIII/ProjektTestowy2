@@ -1,4 +1,4 @@
-function funkcjaKamil(){
+/* function funkcjaKamil(){
         var guzik = document.getElementById("guzikkolor");
         guzik.addEventListener("click",function(){
             if (guzik.className == ""){
@@ -48,4 +48,17 @@ function wracaj (element){
         var int = liczbaAsString^1;
         return int;
     }
-    funkcjaKamil();
+    funkcjaKamil(); */
+function openTab (event, tabName) {
+    var i, wzakladce, zakladka;
+    wzakladce = document.getElementsByClassName("wzakladce");
+    for (i = 0; i < wzakladce.length; i++) {
+        wzakladce[i].style.display = "none";
+    }
+    zakladka = document.getElemntsByClassName("zakladka");
+    for (i = 0; i < zakladka.length; i++) {
+        zakladka[i].className = zakladka[i].className.replace("active", "");
+    }
+    document.getElementById(tabName).style.display = "block";
+    event.currentTarget.className += " active";
+}

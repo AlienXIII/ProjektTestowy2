@@ -1,7 +1,7 @@
 @import "compass/reset";
 $navy:rgb(31,63,102);
 body{
-    background-color:grey;
+    background-color:rgb(180,180,180);
     margin:0;
     b{
         font-weight:600;
@@ -19,13 +19,14 @@ header{
 }
 ul{
     list-style-type:none;
-    padding:0 0 0 100px;
+    padding:15px 0 0 85px;
     float:left;
 }
 #ellisty{
     display:inline;
-    font-size: 20px;
+    font-size: 40px;
     font-family: Helvetica;
+    margin:90px;
 }
 nav{
     padding:30px 60px 30px 45px;
@@ -54,6 +55,7 @@ nav{
         top: 25%;
         left:11%;
         font-size: 45px;
+        font-family:  Helvetica;
         }
 }
 .banner img {
@@ -81,50 +83,70 @@ nav{
 }
 .principle {
         position:relative;
+        height:70px;
+        margin:0;
+        padding: 20px 0 20px 0;
    .pone {
         position: absolute;
         height:70px;
         width:32%;
+        left:5%;
         font-size: 20px;
         text-align: justify;
+        font-family:Verdana;
+        color:$navy;
         img {
                 float:left;
+                padding: 0 5px 0 0;
            }
    }
    .ptwo {
         position: absolute;
         height:70px;
         width:32%;
+        left:36%;
         font-size: 20px;
         text-align: justify;
+        font-family:Verdana;
+        color:$navy;
             img {
-                    float:left;
+                float:left;
+                padding: 0 5px 0 0;
                }
     }
    .pthree {
         position: absolute;
         height:70px;
         width:32%;
+        left:67%;
         font-size: 20px;
         text-align: justify;
+        font-family:Verdana;
+        color:$navy;
         img {
                 float:left;
+                padding: 0 5px 0 0;
            }
     }
 }
 .trzeciblok{
     position: relative;
-    width: 100%;
+    height: 280px;
+    width:100%;
+    background-color:white;
+    padding: 20px 0 20px 0;
 
     .iphone {
         position:absolute;
-        height:400px;
-        left: 5%;
+        height:283px;
+        width:350px;
+        left: 10%;
+        float: left;
     }
     .guzikdwa {
         position: absolute;
-        top: 10%;
-        left: 50%;
+        top: 70%;
+        left: 39%;
         background-color: green;
         color: white;
         font-size: 30px;
@@ -136,14 +158,18 @@ nav{
     }
     #tekst2 {
         color:navy;
-        height: 250px;
-        width: 1000px;
+        height: 150px;
+        width: 700px;
         text-align:justify;
         position:absolute;
-        top: 25%;
-        left:35%;
-        font-size: 35px;
+        top: 8%;
+        left:39%;
+        font-size: 24px;
         font-family: Verdana;
+
+        #tekst2nag {
+        font-size: 130%;
+        }
     }
 }
 #guzikkolor{
@@ -159,4 +185,94 @@ nav{
     &.clicked {
       background-color: green;
 }
+}
+.prawa {
+    overflow:hidden;
+    border:none;
+    background-color:yellow;
+
+    button {
+        background-color: inherit;
+        float:left;
+        border:none;
+        outline: none;
+        cursor: pointer;
+        padding: 15px 15px;
+        font-size: 16px;
+            .active {
+                background-color:$navy;
+            }
+    }
+}
+.wzakladce {
+    padding: 10px 8px;
+    border:none;
+    border-top:none;
+}
+.lewa {
+    position:relative;
+    height: 280px;
+    width:100%;
+    background-color:white;
+    padding: 20px 0 20px 0;
+
+    #lasttext{
+        position: absolute;
+        color:$navy;
+        font-family:Verdana;
+        left:10%;
+    }
+
+        #tekst3nag {
+            font-size: 200%;
+        }
+
+    #mobilep img {
+        position:absolute;
+        left:10%;
+        top:53px;
+    }
+
+    #pp1 {
+        position: absolute;
+        left: 27%;
+        top: 21%;
+        text-align:justify;
+        width:190px;
+        padding: 5px 30px;
+        background-color: rgb(180,180,180);
+
+        img {
+            top:-15px;
+            left:-55px;
+        }
+    }
+    #pp2 {
+        position: absolute;
+        left: 27%;
+        top: 49%;
+        text-align:justify;
+        width:190px;
+        padding: 5px 30px;
+        background-color: rgb(180,180,180);
+
+        img {
+            top:-15px;
+            left:-55px;
+        }
+    }
+    #pp3 {
+        position: absolute;
+        left: 27%;
+        top: 77%;
+        text-align:justify;
+        width:190px;
+        padding: 5px 30px;
+        background-color: rgb(180,180,180);
+
+        img {
+            top:-15px;
+            left:-55px;
+        }
+    }
 }
