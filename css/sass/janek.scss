@@ -95,9 +95,17 @@ header a {
 
 .guziczek {
 
+#cokolwiek{
   position: absolute;
   bottom: 15%;
   left: 10%;
+  }
+
+#velilum{
+position: absolute;
+  bottom: 15%;
+  left: 10%;
+}
   background-color: #4CAF50;
 
   color: white;
@@ -119,7 +127,6 @@ header a {
   font-size: 25px;
   font-family: $czcionka;
 
-  padding:20px 0 20px 0;
 
 
   .column {
@@ -140,6 +147,27 @@ header a {
   }
 
 }
+
+.dolnepacznato{
+
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 30px;
+ #profile{
+
+ position: absolute;
+   left:10%;
+   width: 20%;
+   height: auto;
+}
+
+#tekstatvero
+{}
+}
+
+
+
 
 #zmieniany {
 
