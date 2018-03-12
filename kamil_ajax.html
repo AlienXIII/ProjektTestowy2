@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="daneUzytkownika">
+
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    $.ajax({
+        url:"js/kamil.json"
+
+    }).done(function(responseObject, status, response ) {
+    var u = responseObject.users[0];
+
+            if (typeof u.jestBossem == "undefined") {
+                console.log ("prawda")
+            }
+            $("#daneUzytkownika").append("Imię: "+u.imie,
+            "<br>Nazwisko: "+u.nazwisko,
+            "<br>Dzień urodzin: "+u.dataUr.dzien,
+            "<br>Miesiąc urodzin: "+u.dataUr.miesiac,
+            "<br>Rok urodzenia: "+u.dataUr.rok,
+            "<br>Miasto: "+u.adres.miasto,
+            "<br>Ulica: "+u.adres.ulica,
+            "<br>Nr domu: "+u.adres.numer,
+            "<br>Pierwszy zakup: "+u.zakupy[0].tytul+", "
+            +u.zakupy[0].autor,
+            "<br>Drugi zakup: "+u.zakupy[1].tytul+", "
+            +u.zakupy[1].autor
+            +"<br>Hobby: ")
+            for(var i=0; i<u.hobby.length; i++){
+                $("#daneUzytkownika").append(u.hobby[i])
+
+                if (i!=u.hobby.length-1){
+                $("#daneUzytkownika").append(", ")
+                }
+            }
+            var total = 0;
+            $("#daneUzytkownika").append("<br>Łączna cena: ")
+            for(var j=0; j<u.zakupy.length; j++) {
+                total += u.zakupy[j].cena;
+                }
+                $("#daneUzytkownika").append(total)
+        })
+    .fail(function() {
+            alert("nie udało się")
+        })
+</script>
+</body>
+</html>

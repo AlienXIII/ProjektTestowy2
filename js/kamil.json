@@ -1,0 +1,31 @@
+{"users": [
+  {
+    "imie":"Kamil",
+    "nazwisko":"Wojtaszczyk",
+    "dataUr": {
+        "miesiac":"Sierpień",
+        "dzien":1,
+        "rok":1995
+    },
+    "adres": {
+        "miasto":"Zabrze",
+        "ulica":null,
+        "numer":71
+    },
+    "zakupy": [
+      {
+        "tytul":"Lśnienie",
+        "cena":50,
+        "autor":"Stephen King"
+      },
+      {
+        "tytul":"Lśnienie 2",
+        "cena":1000,
+        "autor":"Jack Nicholson"
+      }
+    ],
+    "hobby": [
+        "gry wideo","gitara","spanie"
+    ]
+  }
+]}
