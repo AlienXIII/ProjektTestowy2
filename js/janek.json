@@ -1,0 +1,42 @@
+{
+    "users":[
+
+        {
+            "firstName": "Janek",
+            "lastName": "Robocinski",
+            "DoB": {
+                "month": "Lipiec",
+                "day": 5,
+                "year": 1985
+            },
+
+
+            "address": {
+                "city": "Wodzislaw",
+                "street":null,
+                "houseNumber":2
+
+            },
+            "zakupy":[
+                {
+                    "tytul":"Lsnienie",
+                    "cena":100
+
+
+                },
+                {
+
+                    "tytul":"Lsnienie 2",
+                    "cena":1000
+                }
+
+            ],
+            "hobbies":[
+                "rpg",
+                "geocaching"
+            ]
+
+
+        }
+    ]
+}

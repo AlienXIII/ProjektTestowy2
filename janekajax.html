@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<div id="daneUzytkownika">
+
+
+</div>
+
+<script src="js/jquery-3.3.1.min.js">
+
+
+</script>
+<script>
+    $.ajax({
+        url: "js/janek.json"
+
+    }).fail(function (a, b, c) {
+                alert("error " + c + "! Everything is allright")
+            })
+      .done(function (responseObject, status, response) {
+                var mojUzytkownik =   responseObject.users[0];
+                var sumaCeny=0;
+                if (sumaCeny){
+                    console.log ("prawda")
+                }
+
+                $("#daneUzytkownika").append("imie "+mojUzytkownik.firstName);
+
+                $("#daneUzytkownika").append("<br>nazwisko "+mojUzytkownik.lastName);
+                $("#daneUzytkownika").append("<br>rok urodzenia "+responseObject.users[0].DoB.year);
+
+               if ((mojUzytkownik.zakupy.lenght)<1){
+                   $("#daneUzytkownika").append("<br>Brak zakupow");
+               }
+
+               //var myVar = document.getElementById("daneUzytkownika");
+               // myVar.innerHTML += "<br>Brak zakupow";
+
+
+                else{
+                    $("#daneUzytkownika").append("<br>Twoje zakupy: ");
+                    for (var i=0; i< mojUzytkownik.zakupy.length; i++){
+                        $("#daneUzytkownika").append("<br>"+mojUzytkownik.zakupy[i].tytul);
+                        sumaCeny += mojUzytkownik.zakupy[i].cena}
+                        $("#daneUzytkownika").append("<br>Laczna cena zakupow: ");
+                        $("#daneUzytkownika").append("<br>"+sumaCeny);
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+         }
+    )
+
+
+
+</script>
+</body>
+</html>
