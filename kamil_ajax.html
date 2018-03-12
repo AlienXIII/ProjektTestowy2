@@ -27,11 +27,7 @@
             "<br>Miasto: "+u.adres.miasto,
             "<br>Ulica: "+u.adres.ulica,
             "<br>Nr domu: "+u.adres.numer,
-            "<br>Pierwszy zakup: "+u.zakupy[0].tytul+", "
-            +u.zakupy[0].autor,
-            "<br>Drugi zakup: "+u.zakupy[1].tytul+", "
-            +u.zakupy[1].autor
-            +"<br>Hobby: ")
+            "<br>Hobby: ")
             for(var i=0; i<u.hobby.length; i++){
                 $("#daneUzytkownika").append(u.hobby[i])
 
@@ -45,9 +41,21 @@
                 total += u.zakupy[j].cena;
                 }
                 $("#daneUzytkownika").append(total)
+
+            $("#daneUzytkownika").append("<br>Twój koszyk:<br>")
+
+            for(var k=0; k<u.zakupy.length; k++) {
+                $("#daneUzytkownika").append(u.zakupy[k].tytul)
+                $("#daneUzytkownika").append(", ")
+                $("#daneUzytkownika").append(u.zakupy[k].autor)
+
+                if (k!=u.zakupy[k].length-1) {
+                $("#daneUzytkownika").append("<br>")
+                }
+            }
         })
     .fail(function() {
-            alert("nie udało się")
+            alert("cos poszlo nie tak")
         })
 </script>
 </body>
