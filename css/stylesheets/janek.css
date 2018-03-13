@@ -69,16 +69,20 @@ body {
   font-size: 16px;
 }
 /* line 11, ../sass/janek.scss */
+body * {
+  font-family: "Opensans";
+}
+/* line 14, ../sass/janek.scss */
 body b {
   font-weight: 600;
 }
 
-/* line 16, ../sass/janek.scss */
+/* line 19, ../sass/janek.scss */
 header {
   background-color: #1f3f66;
 }
 
-/* line 21, ../sass/janek.scss */
+/* line 24, ../sass/janek.scss */
 #logo {
   float: left;
   margin: 30px 0 30px 5%;
@@ -86,23 +90,23 @@ header {
   width: 300px;
 }
 
-/* line 28, ../sass/janek.scss */
+/* line 31, ../sass/janek.scss */
 header #tekst {
   padding-top: 60px;
   color: white;
   font-size: 2em;
-  font-family: Open Sans;
+  font-family: "Opensans";
   margin-top: -10px;
   padding-left: 180px;
   float: left;
 }
 
-/* line 38, ../sass/janek.scss */
+/* line 41, ../sass/janek.scss */
 header a {
   padding: 0 100px 0 0;
 }
 
-/* line 42, ../sass/janek.scss */
+/* line 45, ../sass/janek.scss */
 #searchbox {
   position: absolute;
   right: 70px;
@@ -110,38 +114,38 @@ header a {
   border: 5px solid white;
 }
 
-/* line 51, ../sass/janek.scss */
+/* line 54, ../sass/janek.scss */
 .cleaner {
   clear: both;
 }
 
-/* line 55, ../sass/janek.scss */
+/* line 58, ../sass/janek.scss */
 .pacznato {
   position: relative;
   top: 0;
   left: 0;
 }
 
-/* line 62, ../sass/janek.scss */
+/* line 65, ../sass/janek.scss */
 #glownyobrazek {
   position: relative;
   width: 100%;
   height: 600px;
 }
 
-/* line 71, ../sass/janek.scss */
+/* line 73, ../sass/janek.scss */
 .pacznato #tekst {
   position: absolute;
   top: 10%;
   left: 10%;
   color: #1f3f66;
   font-size: 2.5em;
-  font-family: Open Sans;
+  font-family: "Opensans";
   width: 40%;
   text-align: justify;
 }
 
-/* line 86, ../sass/janek.scss */
+/* line 87, ../sass/janek.scss */
 #telefony {
   position: absolute;
   top: 10%;
@@ -150,11 +154,8 @@ header a {
   height: auto;
 }
 
-/* line 96, ../sass/janek.scss */
+/* line 97, ../sass/janek.scss */
 .guziczek {
-  position: absolute;
-  bottom: 15%;
-  left: 10%;
   background-color: #4CAF50;
   color: white;
   padding: 10px 25px;
@@ -163,54 +164,153 @@ header a {
   font-weight: 600;
   display: inline-block;
   font-size: 2em;
-  font-family: Open Sans;
+  font-family: "Opensans";
+  border: none;
   cursor: pointer;
   border-radius: 10px;
 }
+/* line 112, ../sass/janek.scss */
+.guziczek#volup {
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+}
 
-/* line 116, ../sass/janek.scss */
+/* line 122, ../sass/janek.scss */
 .dolnypanel {
   color: navy;
   font-size: 25px;
-  font-family: Open Sans;
-  margin: 0 5% 0 5%;
+  font-family: "Opensans";
+  padding: 20px 5% 20px 5%;
 }
-/* line 124, ../sass/janek.scss */
+/* line 129, ../sass/janek.scss */
 .dolnypanel .column {
   display: inline-block;
   width: 32%;
   text-align: justify;
   position: relative;
 }
-/* line 129, ../sass/janek.scss */
+/* line 134, ../sass/janek.scss */
 .dolnypanel .column div {
   display: inline-block;
   padding-left: 70px;
 }
-/* line 134, ../sass/janek.scss */
+/* line 139, ../sass/janek.scss */
 .dolnypanel .column img {
   top: 0;
   left: 0;
   position: absolute;
 }
 
-/* line 143, ../sass/janek.scss */
-#zmieniany {
-  width: 20%;
-  height: 30%;
-  background-color: green;
+/* line 148, ../sass/janek.scss */
+.dolnepacznato {
+  margin: 5%;
+  padding: 30px 10% 0 10%;
+  background: white;
+}
+
+/* line 155, ../sass/janek.scss */
+#profile {
+  float: left;
+  height: auto;
+  width: 30%;
+}
+
+/* line 163, ../sass/janek.scss */
+#tekstatvero {
+  top: 10%;
+  left: 10%;
+  color: #1f3f66;
+  font-size: 2em;
+  font-family: "Opensans";
+  padding: 15px 10% 10px 30%;
+  width: 60%;
+  text-align: justify;
+}
+
+/* line 175, ../sass/janek.scss */
+#velilum {
+  bottom: 15%;
+  right: 30%;
+}
+
+/* line 183, ../sass/janek.scss */
+#lewytelefon {
+  float: left;
+}
+
+/* line 187, ../sass/janek.scss */
+#utenim {
+  font-size: 2.5em;
+  margin: 1em 0;
+}
+
+/* line 191, ../sass/janek.scss */
+.utenim {
+  color: navy;
+  font-size: 1.5rem;
+  font-family: "Opensans";
+  padding: 20px 5% 20px 20px;
+  width: 40%;
+  float: left;
+}
+
+/* line 201, ../sass/janek.scss */
+.utenimTekst {
+  background-color: grey;
+  padding-left: 3em;
   position: relative;
+  margin-bottom: 1em;
+}
+/* line 206, ../sass/janek.scss */
+.utenimTekst .utenimImage {
+  position: absolute;
+  display: inline-block;
+  left: -1em;
+  top: -0.5em;
+}
+
+/* line 215, ../sass/janek.scss */
+#kwadrat {
+  background-color: navy;
+  width: 30%;
+  height: 20%;
+  float: right;
+  padding: 20px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin: 10px 15px;
+}
+
+/* line 226, ../sass/janek.scss */
+#iste {
   color: white;
-  padding: 10px 25px;
+  font-size: 1.5em;
+  font-family: "Opensans";
+  padding: 0 20% 5px 5px;
+}
+
+/* line 234, ../sass/janek.scss */
+.tuwpisz {
+  border-radius: 10px;
+  padding: 5px;
+  width: 90%;
+  margin: 10px;
+}
+
+/* line 241, ../sass/janek.scss */
+#wyslij {
+  float: right;
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
   text-align: center;
   text-decoration: none;
-  font-weight: 600;
-  font-size: 3em;
-  font-family: Open Sans;
+  font-weight: 500;
+  font-size: 2em;
+  font-family: "Opensans";
+  width: 60%;
   cursor: pointer;
   border-radius: 10px;
-}
-/* line 161, ../sass/janek.scss */
-#zmieniany.klikniety {
-  background-color: red;
+  border: none;
 }
