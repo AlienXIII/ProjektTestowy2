@@ -231,21 +231,20 @@ nav {
   height: 280px;
   width: 100%;
   background-color: white;
-  padding: 20px 0 20px 0;
+  padding: 20px 60px 20px 60px;
 }
 /* line 139, ../sass/kamil.scss */
 .trzeciblok .iphone {
-  position: absolute;
   height: 283px;
   width: 350px;
   left: 10%;
   float: left;
 }
-/* line 146, ../sass/kamil.scss */
+/* line 145, ../sass/kamil.scss */
 .trzeciblok .guzikdwa {
   position: absolute;
   top: 70%;
-  left: 39%;
+  left: 29%;
   background-color: green;
   color: white;
   font-size: 30px;
@@ -255,24 +254,28 @@ nav {
   border-radius: 10px;
   font-weight: 600;
 }
-/* line 159, ../sass/kamil.scss */
+/* line 158, ../sass/kamil.scss */
 .trzeciblok #tekst2 {
   color: navy;
   height: 150px;
   width: 700px;
   text-align: justify;
-  position: absolute;
-  top: 8%;
-  left: 39%;
+  float: left;
   font-size: 24px;
   font-family: Verdana;
+  padding: 0 0 0 20px;
 }
-/* line 170, ../sass/kamil.scss */
+/* line 168, ../sass/kamil.scss */
 .trzeciblok #tekst2 #tekst2nag {
   font-size: 130%;
 }
 
-/* line 175, ../sass/kamil.scss */
+/* line 173, ../sass/kamil.scss */
+.clear {
+  clear: both;
+}
+
+/* line 176, ../sass/kamil.scss */
 #guzikkolor {
   position: relative;
   background-color: red;
@@ -284,106 +287,118 @@ nav {
   border-radius: 10px;
   font-weight: 600;
 }
-/* line 185, ../sass/kamil.scss */
+/* line 186, ../sass/kamil.scss */
 #guzikkolor.clicked {
   background-color: green;
 }
 
-/* line 189, ../sass/kamil.scss */
-.prawa {
-  overflow: hidden;
-  border: none;
-  background-color: yellow;
-}
-/* line 194, ../sass/kamil.scss */
-.prawa button {
-  background-color: inherit;
+/* line 191, ../sass/kamil.scss */
+#lasttext {
   float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 15px 15px;
-  font-size: 16px;
-}
-/* line 202, ../sass/kamil.scss */
-.prawa button .active {
-  background-color: #1f3f66;
+  color: #1f3f66;
+  font-family: Verdana;
+  background-color: white;
+  padding: 0 60px 10px 60px;
 }
 
-/* line 207, ../sass/kamil.scss */
-.wzakladce {
-  padding: 10px 8px;
-  border: none;
-  border-top: none;
-}
-
-/* line 212, ../sass/kamil.scss */
+/* line 198, ../sass/kamil.scss */
 .lewa {
-  position: relative;
   height: 280px;
   width: 100%;
   background-color: white;
-  padding: 20px 0 20px 0;
+  padding: 20px 60px 20px 60px;
 }
-/* line 219, ../sass/kamil.scss */
-.lewa #lasttext {
-  position: absolute;
-  color: #1f3f66;
-  font-family: Verdana;
-  left: 10%;
+/* line 204, ../sass/kamil.scss */
+.lewa #mobilep img {
+  float: left;
 }
-/* line 226, ../sass/kamil.scss */
+/* line 208, ../sass/kamil.scss */
 .lewa #tekst3nag {
   font-size: 200%;
 }
-/* line 230, ../sass/kamil.scss */
-.lewa #mobilep img {
-  position: absolute;
-  left: 10%;
-  top: 53px;
-}
-/* line 236, ../sass/kamil.scss */
+/* line 212, ../sass/kamil.scss */
 .lewa #pp1 {
-  position: absolute;
+  float: left;
   left: 27%;
-  top: 21%;
+  top: 24%;
   text-align: justify;
   width: 190px;
   padding: 5px 30px;
   background-color: #b4b4b4;
+  font-family: Verdana;
+  font-size: 14px;
+  color: #1f3f66;
 }
-/* line 245, ../sass/kamil.scss */
+/* line 224, ../sass/kamil.scss */
 .lewa #pp1 img {
+  float: left;
   top: -15px;
   left: -55px;
 }
-/* line 250, ../sass/kamil.scss */
+/* line 230, ../sass/kamil.scss */
 .lewa #pp2 {
-  position: absolute;
+  float: left;
   left: 27%;
-  top: 49%;
+  top: 52%;
   text-align: justify;
   width: 190px;
   padding: 5px 30px;
   background-color: #b4b4b4;
+  font-family: Verdana;
+  font-size: 14px;
+  color: #1f3f66;
 }
-/* line 259, ../sass/kamil.scss */
+/* line 242, ../sass/kamil.scss */
 .lewa #pp2 img {
   top: -15px;
   left: -55px;
+  float: left;
 }
-/* line 264, ../sass/kamil.scss */
+/* line 248, ../sass/kamil.scss */
 .lewa #pp3 {
-  position: absolute;
+  float: left;
   left: 27%;
-  top: 77%;
+  top: 80%;
   text-align: justify;
   width: 190px;
   padding: 5px 30px;
   background-color: #b4b4b4;
+  font-family: Verdana;
+  font-size: 14px;
+  color: #1f3f66;
 }
-/* line 273, ../sass/kamil.scss */
+/* line 260, ../sass/kamil.scss */
 .lewa #pp3 img {
   top: -15px;
   left: -55px;
+  float: left;
+}
+
+/* line 267, ../sass/kamil.scss */
+.forma {
+  padding: 60px 15px 55px 15px;
+  border-radius: 5px;
+  background-color: #1f3f66;
+  width: 20%;
+}
+/* line 273, ../sass/kamil.scss */
+.forma input[type=text] {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  margin: 8px 0 10px 0;
+  padding: 6px 0 6px 4px;
+}
+/* line 281, ../sass/kamil.scss */
+.forma input[type=submit] {
+  width: 50%;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  float: right;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 25px;
+  padding: 8px 0 8px 0;
 }

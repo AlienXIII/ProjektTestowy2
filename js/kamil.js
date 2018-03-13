@@ -49,7 +49,7 @@ function wracaj (element){
         return int;
     }
     funkcjaKamil(); */
-function openTab (event, tabName) {
+/*function openTab (event, tabName) {
     var i, wzakladce, zakladka;
     wzakladce = document.getElementsByClassName("wzakladce");
     for (i = 0; i < wzakladce.length; i++) {
@@ -61,4 +61,4 @@ function openTab (event, tabName) {
     }
     document.getElementById(tabName).style.display = "block";
     event.currentTarget.className += " active";
-}
+} */
